@@ -9,7 +9,7 @@ namespace ReflectionDemo
         {
             System.Type t = typeof(Employee);
 
-            
+            Console.WriteLine(t);
 
             MethodInfo[] methods = t.GetMethods();
             PropertyInfo[] properties = t.GetProperties();
